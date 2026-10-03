@@ -58,7 +58,6 @@ Determine which service type has the greatest delivery-delay burden and which hu
 data-analysis-set-a/
 ├── README.md
 ├── requirements.txt
-├── .gitignore
 ├── data/
 │   └── raw/
 │       ├── deliveries.csv
@@ -71,9 +70,7 @@ data-analysis-set-a/
 ├── python/
 │   └── analysis.py
 ├── powerbi/
-│   ├── dashboard.pbix
-│   ├── DAX_measures.txt
-│   └── PowerBI_build_steps.md
+│   └── dashboard.pbix
 └── outputs/
     ├── clean_data.csv
     ├── python_summary.csv
@@ -122,12 +119,6 @@ Aggregate selected: **Standard service_type total delay_days = 22.00**.
 
 No rounding difference is expected for this aggregate.
 
-## Video
-**Video URL:** [PASTE ACCESSIBLE YOUTUBE/GOOGLE DRIVE LINK]  
-**Duration:** [ENTER 5–10 MINUTES]
-
-The video should show face + screen throughout and explain the dataset, duplicate handling, Excel formulas/PivotTable, one SQL query, Python merge/assertion/derivation/chart, Power BI measure and slicer, two numeric findings, one recommendation, one limitation, and repository structure.
-
 ## Tools and versions
 - Excel: Microsoft 365 / Excel 2019+
 - Power BI Desktop: latest available version
@@ -137,7 +128,3 @@ The video should show face + screen throughout and explain the dataset, duplicat
 
 ## Authorship
 All work in this repository is my own except where cited.
-
-## Final submission fields
-- Public repository URL: [PASTE URL]
-- Final commit hash: [PASTE HASH]
